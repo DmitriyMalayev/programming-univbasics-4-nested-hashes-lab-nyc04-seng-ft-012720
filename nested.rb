@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-
+puts programmer_hash[grace_hopper]  
 end
 
 def alan_kay_is_known_for
@@ -37,6 +37,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     puts alan_kay_is_known_for[:alan_kay][:known_for]  	 
+     
 end
 
 def dennis_ritchies_language
@@ -55,6 +57,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     
+     puts dennis_ritchies_language[:dennis_ritchie][:languages]  
 end
 
 def adding_matz
@@ -125,9 +129,9 @@ def adding_to_dennis
 end
 
 
-puts programmer_hash[grace_hopper] 
-puts alan_kay_is_known_for[:alan_kay][:known_for]  	 
-puts dennis_ritchies_language[:dennis_ritchie][:languages] 
+
+
+
 puts adding_matz[:keys] = [:yukihiro_matsumoto]
 puts adding_matz[:programmer_hash] = :yukihiro_matsumoto
 puts changing_alan[:alan_kay][:known_for] = "GUI"
