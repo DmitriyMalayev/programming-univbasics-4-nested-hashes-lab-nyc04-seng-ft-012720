@@ -123,3 +123,12 @@ def adding_to_dennis
      }
 
 end
+
+
+puts programmer_hash[grace_hopper] 
+puts alan_kay_is_known_for[:alan_kay][:known_for]  	 
+puts dennis_ritchies_language[:dennis_ritchie][:languages] 
+puts adding_matz[:keys] = [:yukihiro_matsumoto]
+puts adding_matz[:programmer_hash] = :yukihiro_matsumoto
+puts changing_alan[:alan_kay][:known_for] = "GUI"
+puts [:dennis_ritchie][:languages][1] = "Assembly"
