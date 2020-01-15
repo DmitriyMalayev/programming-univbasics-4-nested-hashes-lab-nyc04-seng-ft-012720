@@ -84,6 +84,7 @@ def adding_matz
         }
      }
 
+puts adding_matz[:programmer_hash] = :yukihiro_matsumoto
     
 end
 
@@ -106,7 +107,7 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
-     
+     puts changing_alan[:alan_kay][:known_for] = "GUI" 
 end
 
 def adding_to_dennis
@@ -125,14 +126,13 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+puts [:dennis_ritchie][:languages][1] = "Assembly"
 end
 
 
 
 
 
-puts adding_matz[:keys] = [:yukihiro_matsumoto]
-puts adding_matz[:programmer_hash] = :yukihiro_matsumoto
-puts changing_alan[:alan_kay][:known_for] = "GUI"
-puts [:dennis_ritchie][:languages][1] = "Assembly"
+
+
+
